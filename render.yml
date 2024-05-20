@@ -7,7 +7,7 @@ services:
     buildCommand: npm install
     startCommand: npm start
     plan: free
-    autoDeploy: false
+    autoDeploy: true
     envVars:
       - key: SESSION_ID
         sync: false
@@ -16,19 +16,19 @@ services:
       - key: OWNER_NAME
         value: Abhishek Suresh
       - key: OWNER_NUMBER
-        value: 919074692450
+        value: 254741292931
       - key: PREFIX
         value: .
       - key: MODE
-        value: public
+        value: private
       - key: STICKER_DATA
         value: 🎯𝙿𝚑𝚘𝚎𝚗𝚒𝚡-𝙼𝙳;𝙰𝚋𝚑𝚒𝚜𝚑𝚎𝚔 𝚂𝚞𝚛𝚎𝚜𝚑☘️
       - key: AUDIO_DATA
         value: Phoenix-MD;Abhishek Suresh;https://graph.org/file/8976892f2f615077b48cd.jpg
       - key: SUDO
-        value: 917025673121
+        value: 254741292931
       - key: AUTO_STATUS_READ
-        value: false
+        value: true
       - key: SPAM_COUNT
         value: 10
       - key: AUTO_REACT
